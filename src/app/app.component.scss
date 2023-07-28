@@ -1,0 +1,13 @@
+.margin-bottom {
+  margin-bottom: 3rem;
+}
+
+.data {
+  display: flex;
+  .title {
+    font-weight: 600;
+  }
+  .value {
+    margin-left: 1rem;
+  }
+}

@@ -1,0 +1,28 @@
+<div class="container">
+  <div>User's address form</div>
+  <form [formGroup]="userForm" (ngSubmit)="submit()">
+    <div>
+      <label class="label" for="name"> Name: </label>
+      <input class="form-control" type="text" formControlName="name" />
+    </div>
+    <div>
+      <label class="label" for="name"> Street: </label>
+      <input class="form-control" type="text" formControlName="street" />
+    </div>
+    <div>
+      <label class="label" for="name"> City :</label>
+      <input class="form-control" type="text" formControlName="city" />
+    </div>
+    <div>
+      <label class="label" for="name"> Province :</label>
+      <input class="form-control" type="text" formControlName="province" />
+    </div>
+    <div>
+      <label class="label" for="name"> Postal Code: </label>
+      <input class="form-control" type="text" formControlName="postalCode" />
+    </div>
+    <div class="button">
+      <button type="submit">Submit:</button>
+    </div>
+  </form>
+</div>
